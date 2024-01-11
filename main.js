@@ -1,7 +1,8 @@
 import './style.css'
 import javascriptLogo from './javascript.svg'
 import viteLogo from '/vite.svg'
-import { UserApp } from './src/users/user-app'
+import { UsersApp } from './src/users/users-app'
+
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -11,11 +12,11 @@ document.querySelector('#app').innerHTML = `
     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
       <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
     </a>
-    <h1>Crud Project</h1>
+    <h1>CRUD Project</h1>
     <div class ="card"> 
     </div>
   </div>
 `
 const element = document.querySelector('.card')
 
-UserApp(element);
+UsersApp(element)

@@ -1,8 +1,10 @@
-import { User } from "../models/user";
+import { User } from "../models/user"
 
-
-// localhostUser => Instancia del Modelo User
-
+/**
+ * 
+ * @param {Like<User>} localhostUser 
+ * @returns {User}
+ */
 export const localhostUserToModel = ( localhostUser ) => {
 
     const {
@@ -13,9 +15,7 @@ export const localhostUserToModel = ( localhostUser ) => {
         id,
         isActive,
         last_name,
-
     } = localhostUser;
-
 
     return new User({
         avatar,

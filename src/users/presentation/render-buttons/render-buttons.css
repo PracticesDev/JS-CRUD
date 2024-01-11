@@ -1,9 +1,11 @@
-button{
-    margin: 10px;
 
+button {
+    margin: 10px;
 }
 
-#current-page{
-    font-size: 1.2rem;
-    color: white;
+#current-page {
+    color: white !important;
+    font-size: 1.3rem;
+    margin-left: 10px;
+    margin-right: 10px;
 }
